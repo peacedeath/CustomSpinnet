@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomSpinnet</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinnerPrompt">Promt text</string>
+    <string name="BT_DEVICES">Устройства</string>
+    <string name="menuOverflow">Настройки</string>
+</resources>

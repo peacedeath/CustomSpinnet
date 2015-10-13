@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:weightSum="1"
+    android:gravity="center|right"
+    android:layout_margin="0dp"
+    android:baselineAligned="false"
+    android:measureWithLargestChild="false"
+    android:padding="3dp"
+    android:background="#ff0000">
+
+    <!--<Spinner-->
+        <!--android:spinnerMode="dropdown"-->
+        <!--android:contentDescription="@string/BT_DEVICES"-->
+        <!--android:background="@android:color/background_light"-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_marginLeft="3dp"-->
+        <!--android:layout_marginRight="3dp" />-->
+
+    <!--<com.example.boss.first.NoDefaultSpinner-->
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/BT_DEVICES"
+        android:id="@+id/sp_devices"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/spinnerPrompt"/>
+        <!--style="@style/spinner_style" />-->
+    <!--android:theme="@style/Base.Theme.AppCompat.Light"-->
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/overflow"
+        android:background="@android:color/holo_purple"
+        android:src="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:contentDescription="@string/menuOverflow"
+        android:adjustViewBounds="false"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp" />
+    <!--android:src="@drawable/ic_menu_moreoverflow_normal_holo_light"-->
+
+</LinearLayout>
